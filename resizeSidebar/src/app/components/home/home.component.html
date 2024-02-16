@@ -1,0 +1,3 @@
+<app-left-main class="left-main" [ngStyle]="{'width': leftMainWidth + 'px'}"></app-left-main>
+<app-dragger (onMoveDownOnDragger)="onMoveDownOnDragger($event)"></app-dragger>
+<app-right-main class="right-main" [ngStyle]="{'width': 'calc(100% - '+leftMainWidth+'px'+')'}"></app-right-main>

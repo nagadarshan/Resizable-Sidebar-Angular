@@ -1,0 +1,21 @@
+.app-main {
+    height: 100%;
+    width: 100%;
+}
+app-header {
+    display: block;
+    height: 3em;
+}
+app-sidebar {
+    display: block;
+    width: 4em;
+}
+.main-content {
+    display: flex;
+    height: calc(100% - 3em);
+    
+}
+.home-content {
+    width: calc(100% - 4em);
+    display: flex;
+}

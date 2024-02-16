@@ -1,0 +1,14 @@
+.dragger {
+    width: 1px;
+    height: 100%;
+    background-color: red;
+    cursor: col-resize;
+}
+.dragger:hover {
+    width: 2px;
+    cursor: col-resize;
+}
+.dragger:focus {
+    width: 2px;
+    cursor: col-resize;
+}
